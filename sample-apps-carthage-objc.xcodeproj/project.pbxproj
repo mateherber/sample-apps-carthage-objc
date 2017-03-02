@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBC3DDD1E684BAE00B4AB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC3DDC1E684BAE00B4AB5D /* AppDelegate.m */; };
+		2DBC3DE01E684BAE00B4AB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC3DDF1E684BAE00B4AB5D /* main.m */; };
+		2DBC3DE31E684BAE00B4AB5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC3DE21E684BAE00B4AB5D /* ViewController.m */; };
+		2DBC3DE51E684BAE00B4AB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBC3DE41E684BAE00B4AB5D /* Assets.xcassets */; };
+		2DBC3DE81E684BAE00B4AB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBC3DE61E684BAE00B4AB5D /* Main.storyboard */; };
+		2DBC3DF31E684BAE00B4AB5D /* sample_apps_carthage_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC3DF21E684BAE00B4AB5D /* sample_apps_carthage_objcTests.m */; };
+		2DBC3DFE1E684BAE00B4AB5D /* sample_apps_carthage_objcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC3DFD1E684BAE00B4AB5D /* sample_apps_carthage_objcUITests.m */; };
+		2DBC3E101E684E5400B4AB5D /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBC3E0F1E684E5400B4AB5D /* Mantle.framework */; };
+		2DBC3E111E684E5400B4AB5D /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBC3E0F1E684E5400B4AB5D /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DBC3DEF1E684BAE00B4AB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBC3DD01E684BAE00B4AB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBC3DD71E684BAE00B4AB5D;
+			remoteInfo = "sample-apps-carthage-objc";
+		};
+		2DBC3DFA1E684BAE00B4AB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBC3DD01E684BAE00B4AB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBC3DD71E684BAE00B4AB5D;
+			remoteInfo = "sample-apps-carthage-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DBC3E121E684E5400B4AB5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2DBC3E111E684E5400B4AB5D /* Mantle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DBC3DD81E684BAE00B4AB5D /* sample-apps-carthage-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-apps-carthage-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBC3DDB1E684BAE00B4AB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DBC3DDC1E684BAE00B4AB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DBC3DDF1E684BAE00B4AB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DBC3DE11E684BAE00B4AB5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DBC3DE21E684BAE00B4AB5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DBC3DE41E684BAE00B4AB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DBC3DE71E684BAE00B4AB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DBC3DE91E684BAE00B4AB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBC3DEE1E684BAE00B4AB5D /* sample-apps-carthage-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-carthage-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBC3DF21E684BAE00B4AB5D /* sample_apps_carthage_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_apps_carthage_objcTests.m; sourceTree = "<group>"; };
+		2DBC3DF41E684BAE00B4AB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBC3DF91E684BAE00B4AB5D /* sample-apps-carthage-objcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-carthage-objcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBC3DFD1E684BAE00B4AB5D /* sample_apps_carthage_objcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_apps_carthage_objcUITests.m; sourceTree = "<group>"; };
+		2DBC3DFF1E684BAE00B4AB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBC3E0F1E684E5400B4AB5D /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/Mac/Mantle.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBC3DD51E684BAE00B4AB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBC3E101E684E5400B4AB5D /* Mantle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DEB1E684BAE00B4AB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DF61E684BAE00B4AB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBC3DCF1E684BAE00B4AB5D = {
+			isa = PBXGroup;
+			children = (
+				2DBC3E0F1E684E5400B4AB5D /* Mantle.framework */,
+				2DBC3DDA1E684BAE00B4AB5D /* sample-apps-carthage-objc */,
+				2DBC3DF11E684BAE00B4AB5D /* sample-apps-carthage-objcTests */,
+				2DBC3DFC1E684BAE00B4AB5D /* sample-apps-carthage-objcUITests */,
+				2DBC3DD91E684BAE00B4AB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBC3DD91E684BAE00B4AB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC3DD81E684BAE00B4AB5D /* sample-apps-carthage-objc.app */,
+				2DBC3DEE1E684BAE00B4AB5D /* sample-apps-carthage-objcTests.xctest */,
+				2DBC3DF91E684BAE00B4AB5D /* sample-apps-carthage-objcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBC3DDA1E684BAE00B4AB5D /* sample-apps-carthage-objc */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC3DDB1E684BAE00B4AB5D /* AppDelegate.h */,
+				2DBC3DDC1E684BAE00B4AB5D /* AppDelegate.m */,
+				2DBC3DE11E684BAE00B4AB5D /* ViewController.h */,
+				2DBC3DE21E684BAE00B4AB5D /* ViewController.m */,
+				2DBC3DE41E684BAE00B4AB5D /* Assets.xcassets */,
+				2DBC3DE61E684BAE00B4AB5D /* Main.storyboard */,
+				2DBC3DE91E684BAE00B4AB5D /* Info.plist */,
+				2DBC3DDE1E684BAE00B4AB5D /* Supporting Files */,
+			);
+			path = "sample-apps-carthage-objc";
+			sourceTree = "<group>";
+		};
+		2DBC3DDE1E684BAE00B4AB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC3DDF1E684BAE00B4AB5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DBC3DF11E684BAE00B4AB5D /* sample-apps-carthage-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC3DF21E684BAE00B4AB5D /* sample_apps_carthage_objcTests.m */,
+				2DBC3DF41E684BAE00B4AB5D /* Info.plist */,
+			);
+			path = "sample-apps-carthage-objcTests";
+			sourceTree = "<group>";
+		};
+		2DBC3DFC1E684BAE00B4AB5D /* sample-apps-carthage-objcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC3DFD1E684BAE00B4AB5D /* sample_apps_carthage_objcUITests.m */,
+				2DBC3DFF1E684BAE00B4AB5D /* Info.plist */,
+			);
+			path = "sample-apps-carthage-objcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBC3DD71E684BAE00B4AB5D /* sample-apps-carthage-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBC3E021E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objc" */;
+			buildPhases = (
+				2DBC3DD41E684BAE00B4AB5D /* Sources */,
+				2DBC3DD51E684BAE00B4AB5D /* Frameworks */,
+				2DBC3DD61E684BAE00B4AB5D /* Resources */,
+				2DBC3E121E684E5400B4AB5D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-apps-carthage-objc";
+			productName = "sample-apps-carthage-objc";
+			productReference = 2DBC3DD81E684BAE00B4AB5D /* sample-apps-carthage-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBC3DED1E684BAE00B4AB5D /* sample-apps-carthage-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBC3E051E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objcTests" */;
+			buildPhases = (
+				2DBC3DEA1E684BAE00B4AB5D /* Sources */,
+				2DBC3DEB1E684BAE00B4AB5D /* Frameworks */,
+				2DBC3DEC1E684BAE00B4AB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBC3DF01E684BAE00B4AB5D /* PBXTargetDependency */,
+			);
+			name = "sample-apps-carthage-objcTests";
+			productName = "sample-apps-carthage-objcTests";
+			productReference = 2DBC3DEE1E684BAE00B4AB5D /* sample-apps-carthage-objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DBC3DF81E684BAE00B4AB5D /* sample-apps-carthage-objcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBC3E081E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objcUITests" */;
+			buildPhases = (
+				2DBC3DF51E684BAE00B4AB5D /* Sources */,
+				2DBC3DF61E684BAE00B4AB5D /* Frameworks */,
+				2DBC3DF71E684BAE00B4AB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBC3DFB1E684BAE00B4AB5D /* PBXTargetDependency */,
+			);
+			name = "sample-apps-carthage-objcUITests";
+			productName = "sample-apps-carthage-objcUITests";
+			productReference = 2DBC3DF91E684BAE00B4AB5D /* sample-apps-carthage-objcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBC3DD01E684BAE00B4AB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tamás Papik";
+				TargetAttributes = {
+					2DBC3DD71E684BAE00B4AB5D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72SA8V3WYL;
+						ProvisioningStyle = Manual;
+					};
+					2DBC3DED1E684BAE00B4AB5D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DBC3DD71E684BAE00B4AB5D;
+					};
+					2DBC3DF81E684BAE00B4AB5D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DBC3DD71E684BAE00B4AB5D;
+					};
+				};
+			};
+			buildConfigurationList = 2DBC3DD31E684BAE00B4AB5D /* Build configuration list for PBXProject "sample-apps-carthage-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBC3DCF1E684BAE00B4AB5D;
+			productRefGroup = 2DBC3DD91E684BAE00B4AB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBC3DD71E684BAE00B4AB5D /* sample-apps-carthage-objc */,
+				2DBC3DED1E684BAE00B4AB5D /* sample-apps-carthage-objcTests */,
+				2DBC3DF81E684BAE00B4AB5D /* sample-apps-carthage-objcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBC3DD61E684BAE00B4AB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBC3DE51E684BAE00B4AB5D /* Assets.xcassets in Resources */,
+				2DBC3DE81E684BAE00B4AB5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DEC1E684BAE00B4AB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DF71E684BAE00B4AB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBC3DD41E684BAE00B4AB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBC3DE31E684BAE00B4AB5D /* ViewController.m in Sources */,
+				2DBC3DE01E684BAE00B4AB5D /* main.m in Sources */,
+				2DBC3DDD1E684BAE00B4AB5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DEA1E684BAE00B4AB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBC3DF31E684BAE00B4AB5D /* sample_apps_carthage_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC3DF51E684BAE00B4AB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBC3DFE1E684BAE00B4AB5D /* sample_apps_carthage_objcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBC3DF01E684BAE00B4AB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBC3DD71E684BAE00B4AB5D /* sample-apps-carthage-objc */;
+			targetProxy = 2DBC3DEF1E684BAE00B4AB5D /* PBXContainerItemProxy */;
+		};
+		2DBC3DFB1E684BAE00B4AB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBC3DD71E684BAE00B4AB5D /* sample-apps-carthage-objc */;
+			targetProxy = 2DBC3DFA1E684BAE00B4AB5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DBC3DE61E684BAE00B4AB5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBC3DE71E684BAE00B4AB5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DBC3E001E684BAE00B4AB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2DBC3E011E684BAE00B4AB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DBC3E031E684BAE00B4AB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "sample-apps-carthage-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ee4020ff-31b7-4375-928a-fbacb62c3f55";
+				PROVISIONING_PROFILE_SPECIFIER = "Mac Production Wildcard";
+			};
+			name = Debug;
+		};
+		2DBC3E041E684BAE00B4AB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "sample-apps-carthage-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ee4020ff-31b7-4375-928a-fbacb62c3f55";
+				PROVISIONING_PROFILE_SPECIFIER = "Mac Production Wildcard";
+			};
+			name = Release;
+		};
+		2DBC3E061E684BAE00B4AB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-apps-carthage-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-carthage-objc.app/Contents/MacOS/sample-apps-carthage-objc";
+			};
+			name = Debug;
+		};
+		2DBC3E071E684BAE00B4AB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-apps-carthage-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-carthage-objc.app/Contents/MacOS/sample-apps-carthage-objc";
+			};
+			name = Release;
+		};
+		2DBC3E091E684BAE00B4AB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-apps-carthage-objcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sample-apps-carthage-objc";
+			};
+			name = Debug;
+		};
+		2DBC3E0A1E684BAE00B4AB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-apps-carthage-objcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-carthage-objcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sample-apps-carthage-objc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBC3DD31E684BAE00B4AB5D /* Build configuration list for PBXProject "sample-apps-carthage-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBC3E001E684BAE00B4AB5D /* Debug */,
+				2DBC3E011E684BAE00B4AB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBC3E021E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBC3E031E684BAE00B4AB5D /* Debug */,
+				2DBC3E041E684BAE00B4AB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DBC3E051E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBC3E061E684BAE00B4AB5D /* Debug */,
+				2DBC3E071E684BAE00B4AB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DBC3E081E684BAE00B4AB5D /* Build configuration list for PBXNativeTarget "sample-apps-carthage-objcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBC3E091E684BAE00B4AB5D /* Debug */,
+				2DBC3E0A1E684BAE00B4AB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBC3DD01E684BAE00B4AB5D /* Project object */;
+}
